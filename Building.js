@@ -14,7 +14,7 @@ class Building {
       var pos = this.body.position;
       rectMode(CENTER);
       strokeWeight(4);
-      stroke(Math.round(random(1, 255)));
+      stroke(this.color);
       fill(this.color);
       rect(pos.x, pos.y, this.width, this.height);
     }
